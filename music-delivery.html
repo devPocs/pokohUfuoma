@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Work+Sans:wght@300&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/ff44d81e2b.js" crossorigin="anonymous"></script>
+
+  <title>Pokoh Ufuoma-musicity</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="my-pic.jpeg" alt="" />
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav--item">
+          <a class="nav__link" href="index.html">Home</a>
+        </li>
+        <li class="nav--item">
+          <a class="nav__link" href="index.html#skills">Skills</a>
+        </li>
+        <li class="nav--item">
+          <a class="nav__link" href="index.html#projects">Projects</a>
+        </li>
+        <li class="nav--item">
+          <a class="nav__link" href="index.html#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--1. introduction-->
+  <section class="intro">
+    <h1 class="section__title section__title--intro">
+      Musicity
+      <!--<strong>of my project</strong>-->
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">
+      A music delivery app.
+    </p>
+    <img src="./assets/images/musicity-log.JPG" alt="" class="intro__img" />
+  </section>
+
+  <div class="portfolio-item-individual">
+    <p>
+      A simple app that delivers content from a backend on request. Users have
+      to sign up and be logged in to be able to gain access to the resources.
+    </p>
+    <img src="./assets/images/musicity.JPG" alt="first_project" />
+
+    <p></p>
+    <p>
+      This app is built upon a Node js/express server and a mongoDb database
+      to store the songs' details and user information. The front end is built
+      using the pug templating engine and core CSS(no bootstrap or any other
+      library). To see more, follow the link:
+      <a class="links" href="https://musicity.onrender.com">https://musicity.onrender.com/</a>
+    </p>
+  </div>
+  <!--footer-->
+
+  <footer class="footer" id="contact">
+    <a href="mailto:pokoh.ufuoma@gmail.com" class="footer__link">pokoh.ufuoma@gmail.com</a>
+    <ul class="social__list">
+      <li class="social__list--item">
+        <a href="https://twitter.com/pocolean" class="social-list__link"><i class="fa-brands fa-twitter"></i></a>
+      </li>
+      <li class="social__list--item">
+        <a href="https://github.com/devPocs?tab=repositories" class="social-list__link"><i class="fa-brands fa-github"></i></a>
+      </li>
+      <!-- <li class="social__list--item">
+          <a href="#" class="social-list__link"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </li>-->
+      <!-- <li class="social__list--item">
+          <a href="#" class="social-list__link"
+            ><i class="fa-brands fa-medium"></i
+          ></a>
+        </li>-->
+    </ul>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
